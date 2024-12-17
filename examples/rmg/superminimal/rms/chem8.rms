@@ -1,0 +1,301 @@
+Phases:
+- Species:
+  - comment: 'Thermo library: primaryThermoLibrary'
+    name: Ar
+    radicalelectrons: 0
+    smiles: '[Ar]'
+    thermo:
+      polys:
+      - Tmax: 1000.0
+        Tmin: 200.0
+        coefs:
+        - 2.5
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - -745.375
+        - 4.37967
+        type: NASApolynomial
+      - Tmax: 6000.0
+        Tmin: 1000.0
+        coefs:
+        - 2.5
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - -745.375
+        - 4.37967
+        type: NASApolynomial
+      type: NASA
+    type: Species
+  - comment: 'Thermo library: primaryThermoLibrary'
+    name: He
+    radicalelectrons: 0
+    smiles: '[He]'
+    thermo:
+      polys:
+      - Tmax: 1000.0
+        Tmin: 200.0
+        coefs:
+        - 2.5
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - -745.375
+        - 0.928724
+        type: NASApolynomial
+      - Tmax: 6000.0
+        Tmin: 1000.0
+        coefs:
+        - 2.5
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - -745.375
+        - 0.928724
+        type: NASApolynomial
+      type: NASA
+    type: Species
+  - comment: 'Thermo library: primaryThermoLibrary'
+    name: Ne
+    radicalelectrons: 0
+    smiles: '[Ne]'
+    thermo:
+      polys:
+      - Tmax: 1000.0
+        Tmin: 200.0
+        coefs:
+        - 2.5
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - -745.375
+        - 3.35532
+        type: NASApolynomial
+      - Tmax: 6000.0
+        Tmin: 1000.0
+        coefs:
+        - 2.5
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - -745.375
+        - 3.35532
+        type: NASApolynomial
+      type: NASA
+    type: Species
+  - comment: 'Thermo library: primaryThermoLibrary'
+    name: N2
+    radicalelectrons: 0
+    smiles: N#N
+    thermo:
+      polys:
+      - Tmax: 1000.0
+        Tmin: 200.0
+        coefs:
+        - 3.53101
+        - -0.000123661
+        - -5.02999e-07
+        - 2.43531e-09
+        - -1.40881e-12
+        - -1046.98
+        - 2.96747
+        type: NASApolynomial
+      - Tmax: 6000.0
+        Tmin: 1000.0
+        coefs:
+        - 2.95258
+        - 0.0013969
+        - -4.92632e-07
+        - 7.8601e-11
+        - -4.60755e-15
+        - -923.949
+        - 5.87189
+        type: NASApolynomial
+      type: NASA
+    type: Species
+  - comment: 'Thermo library: primaryThermoLibrary'
+    name: H2
+    radicalelectrons: 0
+    smiles: '[H][H]'
+    thermo:
+      polys:
+      - Tmax: 1959.0740027354295
+        Tmin: 100.0
+        coefs:
+        - 3.435364047086431
+        - 0.00021271095953081392
+        - -2.786264174201505e-07
+        - 3.4026824459884485e-10
+        - -7.76034667292106e-14
+        - -1031.3598363265332
+        - -3.9084170523379744
+        type: NASApolynomial
+      - Tmax: 5000.0
+        Tmin: 1959.0740027354295
+        coefs:
+        - 2.7881731232780487
+        - 0.0005876314684120879
+        - 1.5901485172906695e-07
+        - -5.5274792748756156e-11
+        - 4.343174721654994e-15
+        - -596.1485719192189
+        - 0.11268943107563467
+        type: NASApolynomial
+      type: NASA
+    type: Species
+  - comment: 'Thermo library: primaryThermoLibrary'
+    name: O2
+    radicalelectrons: 0
+    smiles: '[O][O]'
+    thermo:
+      polys:
+      - Tmax: 1074.5554692370986
+        Tmin: 100.0
+        coefs:
+        - 3.537321807836052
+        - -0.001215709302088784
+        - 5.3161782521370325e-06
+        - -4.8944342259206e-09
+        - 1.4584504205486174e-12
+        - -1038.5884610464948
+        - 4.683684060288672
+        type: NASApolynomial
+      - Tmax: 5000.0
+        Tmin: 1074.5554692370986
+        coefs:
+        - 3.153824249893355
+        - 0.001678038015519948
+        - -7.699710204209579e-07
+        - 1.5127471382801633e-10
+        - -1.0878180027955583e-14
+        - -1040.8187838347935
+        - 6.167538832743043
+        type: NASApolynomial
+      type: NASA
+    type: Species
+  - comment: 'Thermo library: primaryThermoLibrary'
+    name: '[H]'
+    radicalelectrons: 1
+    smiles: '[H]'
+    thermo:
+      polys:
+      - Tmax: 4561.14441004685
+        Tmin: 100.0
+        coefs:
+        - 2.5000000000035136
+        - -2.0685500014902508e-14
+        - 2.662663699989983e-17
+        - -1.1149739917086685e-20
+        - 1.4354179039730461e-24
+        - 25474.21776872869
+        - -0.44497289634905884
+        type: NASApolynomial
+      - Tmax: 5000.0
+        Tmin: 4561.14441004685
+        coefs:
+        - 2.5000192063652733
+        - -1.649424664263091e-08
+        - 5.309547175566147e-12
+        - -7.592753090285249e-16
+        - 4.0697219239039944e-20
+        - 25474.199884858313
+        - -0.44509510123413504
+        type: NASApolynomial
+      type: NASA
+    type: Species
+  - comment: 'Thermo group additivity estimation: group(O2s-OsH) + group(O2s-OsH)
+      + radical(HOOJ)'
+    name: '[O]O'
+    radicalelectrons: 1
+    smiles: '[O]O'
+    thermo:
+      polys:
+      - Tmax: 932.1255499868697
+        Tmin: 100.0
+        coefs:
+        - 4.045953519135508
+        - -0.0017347547800309771
+        - 1.0377049772538209e-05
+        - -1.0220802501367564e-08
+        - 3.349335933042886e-12
+        - -986.754612592671
+        - 4.635782275129969
+        type: NASApolynomial
+      - Tmax: 5000.0
+        Tmin: 932.1255499868697
+        coefs:
+        - 3.2102121108387456
+        - 0.0036794659414272806
+        - -1.27704269865865e-06
+        - 2.1805170757738512e-10
+        - -1.4634333051225995e-14
+        - -910.3577051131995
+        - 8.183067113461313
+        type: NASApolynomial
+      type: NASA
+    type: Species
+  name: phase
+Reactions:
+- comment: 'Matched reaction 56 H + H <=> H2 in R_Recombination/training
+
+    This reaction matched rate rule [Root_1R->H_N-2R->S_2CHNO->H]
+
+    family: R_Recombination'
+  electronchange: 0
+  kinetics:
+    A: 54500.00000000001
+    Ea: 6276.0
+    n: 0.0
+    type: Arrhenius
+  products:
+  - H2
+  radicalchange: -2
+  reactants:
+  - '[H]'
+  - '[H]'
+  type: ElementaryReaction
+- comment: 'Matched reaction 305 H2 + O2 <=> HO2_r12 + H in H_Abstraction/training
+
+    This reaction matched rate rule [H2;O2b]
+
+    family: H_Abstraction'
+  electronchange: 0
+  kinetics:
+    A: 290000000.00000006
+    Ea: 236982.0
+    n: 0.0
+    type: Arrhenius
+  products:
+  - '[H]'
+  - '[O]O'
+  radicalchange: 2
+  reactants:
+  - O2
+  - H2
+  type: ElementaryReaction
+- comment: 'Matched reaction 104 O2 + H <=> HO2-2 in R_Recombination/training
+
+    This reaction matched rate rule [Root_1R->H_N-2R->S_N-2CHNO->H_N-2CNO-inRing_Ext-2CNO-R_N-Sp-3R!H=2CCNNOO_2CNO->O_3R!H->O]
+
+    family: R_Recombination'
+  electronchange: 0
+  kinetics:
+    A: 87900.00000000001
+    Ea: 1882.8
+    n: 1.0
+    type: Arrhenius
+  products:
+  - '[O]O'
+  radicalchange: 0
+  reactants:
+  - O2
+  - '[H]'
+  type: ElementaryReaction
+Units: {}
